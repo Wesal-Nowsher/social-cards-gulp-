@@ -1,0 +1,358 @@
+* {
+  box-sizing: border-box;
+}
+
+$w: 970px;
+$h: 250px;
+$bg:#f4f5f7;
+$img:"../images/back1.png";
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  .margin{
+    margin: 0 35%;
+    .wrapper {
+      background-image: url(../images/back1.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      padding-top: 10%;
+      .head{
+        height: 123px;
+        background: rgba(255,255,255,0.15);
+        display: flex;
+        align-items: center;
+        img{
+          margin-left: 36px;
+        }
+        .right-content{
+          text-align: right;
+          color: white;
+          h1,p{
+            margin: 14px 10px 10px 0;
+          }
+          h1{
+            font-size: 28px;
+            line-height: 27.54321px;
+            margin-top: 0;
+
+          }
+          p{
+            line-height: 13.22614px;
+          }
+          .para1{
+            font-weight: 400;
+            font-size: 19px;
+          }
+          .para2{
+            font-weight: 300;
+            font-size: 19px;
+          }
+        }
+      }
+      .mid-con{
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70px;
+        .mid-inner-con{
+          height: 100%;
+          width: 75%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          >div{
+            margin: 4%;
+          }
+          .linkedin{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .linkedin-image{
+              width: 62.81px;
+              height: 62.81px;
+              border-radius: 50%;
+              background-color: #006087;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+            }
+            p{
+              margin-top: 0;
+              color: white;
+            }
+          }
+          .facebook{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .facebook-image{
+              width: 62.81px;
+              height: 62.81px;
+              border-radius: 50%;
+              background-color: #4367b2;
+              border:0.9375px solid #4367b2;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: flex-end;
+            }
+            p{
+              margin-top: 0;
+              color: white;
+            }
+          }
+          .whatsapp{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .whatsapp-image{
+              width: 62.81px;
+              height: 62.81px;
+              border-radius: 50%;
+              background-color: #25d366;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+            }
+            p{
+              margin-top: 0;
+              color: white;
+            }
+          }
+          .email{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .email-image{
+              width: 62.81px;
+              height: 62.81px;
+              border-radius: 50%;
+              border:0.9375px solid #ffffff;
+              background: rgba(255,255,255,0.2);
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+            }
+            p{
+              margin-top: 0;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 479px) and (min-width: 320px){
+  body {
+    .margin {
+      margin: 0;
+      .wrapper {
+        .head {
+          img {
+            margin-left: 10%;
+            width: 30%;
+
+          }
+        .right-content{
+          width: 100%;
+          margin-right: 20px;
+          h1 {
+            font-size: 5.9vw;
+          }
+          .para1 {
+            font-size: 17px;
+          }
+          .para2 {
+            font-size: 17px;
+          }
+        }
+        }
+      }
+    }
+  }
+}@media (max-width: 991px) and (min-width: 768px){
+  body {
+    .margin {
+      margin: 0;
+      .wrapper {
+        .head {
+          height: 185px;
+          img {
+            margin-left: 70px;
+            width: 35%;
+          }
+        .right-content{
+          width: 100%;
+          h1,p{
+            margin: 10px 40px 10px 0;
+          }
+          h1 {
+            font-size: 50px;
+          }
+          .para1 {
+            font-size: 38px;
+          }
+          .para2 {
+            font-size: 38px;
+          }
+          p{
+            line-height: 43.22614px;
+          }
+        }
+        }
+      }
+      .mid-con {
+        .mid-inner-con {
+          .linkedin {
+            .linkedin-image {
+              width: 120.81px !important;
+              height: 120.81px !important;
+              img{
+                width: 74px;
+              }
+            }
+            p{
+              font-size: 26px;
+            }
+          }
+          .facebook {
+            .facebook-image {
+              width: 120.81px !important;
+              height: 120.81px !important;
+              img{
+                width: 42px;
+              }
+            }p{
+               font-size: 26px;
+             }
+          }
+          .whatsapp {
+            .whatsapp-image {
+              width: 120.81px !important;
+              height: 120.81px !important;
+              img{
+                width: 74px;
+              }
+             }p{
+                font-size: 26px;
+              }
+          }
+          .email {
+            .email-image {
+              width: 120.81px !important;
+              height: 120.81px !important;
+              img{
+                width: 40px;
+              }
+            }p{
+               font-size: 26px;
+             }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1199px) and (min-width: 1024px){
+  body {
+    .margin {
+      margin: 0;
+      .wrapper {
+        height: 106vh;
+        .head {
+          height: 250px;
+          img {
+            margin-left: 110px;
+            width: 32%;
+          }
+        .right-content{
+          width: 100%;
+          padding-bottom: 20px;
+          h1,p{
+            margin: 10px 40px 10px 0;
+          }
+          h1 {
+            font-size: 75px;
+            margin-top: 0;
+            line-height: unset;
+          }
+          .para1 {
+            font-size: 54px;
+          }
+          .para2 {
+            font-size: 54px;
+          }
+          p{
+            line-height: 44.22614px;
+          }
+        }
+        }
+      }
+      .mid-con {
+        .mid-inner-con {
+          .linkedin {
+            .linkedin-image {
+              width: 180.81px!important;
+              height: 180.81px!important;
+              img{
+                width: 110px;
+              }
+            }
+            p{
+              font-size: 44px;
+            }
+          }
+          .facebook {
+            .facebook-image {
+              width: 180.81px!important;
+              height: 180.81px!important;
+              img{
+                width: 62px;
+              }
+            }
+            p{
+              font-size: 44px;
+            }
+          }
+          .whatsapp {
+            .whatsapp-image {
+              width: 180.81px!important;
+              height: 180.81px!important;
+              img{
+                width: 100px;
+              }
+             }
+            p{
+              font-size: 44px;
+            }
+          }
+          .email {
+            .email-image {
+              width: 180.81px!important;
+              height: 180.81px!important;
+              img{
+                width: 70px;
+              }
+            }
+            p{
+              font-size: 44px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
