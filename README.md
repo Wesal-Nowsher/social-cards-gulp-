@@ -1,4 +1,4 @@
-# Rapid development with Boilerplate Gulp Sass Babel
+# digital cards gulp
 Hurry up don't waste your time, Do these commands in your terminal.
 
 # Install
