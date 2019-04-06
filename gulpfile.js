@@ -32,7 +32,7 @@ var paths = {
     dir: `${dirs.src}/scripts/`
   },
   templates: {
-    src: `${dirs.src}/templates/index.html`,
+    src: `${dirs.src}/index.html`,
     dest: dirs.dest,
   },
   images: {
